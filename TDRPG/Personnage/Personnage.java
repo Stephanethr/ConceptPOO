@@ -1,12 +1,11 @@
-package TDRPG.Personnage;
+package TDRPG.personnage;
 
 import java.util.ArrayList;
 
-import TDRPG.Arme.Arme;
-import TDRPG.Arme.Baton;
-import TDRPG.Arme.Poing;
-import TDRPG.Arme.Arc;
-import TDRPG.Arme.Epee;
+import TDRPG.arme.Arme;
+import TDRPG.arme.ArmeMagique;
+import TDRPG.arme.ArmePhysique;
+
 
 public class Personnage {
     protected String nom;
@@ -218,16 +217,16 @@ public class Personnage {
     public void setArme() {
         switch (this.classe) {
             case "Guerrier":
-                this.arme = new Epee("Epee en bois", 10);
+                this.arme = new ArmePhysique("Epee en bois", 10);
                 break;
             case "Mage":
-                this.arme = new Baton("Baton en bois", 10);
+                this.arme = new ArmeMagique("Baton en bois", 10);
                 break;
             case "Voleur":
-                this.arme = new Arc("Arc en bois", 10);
+                this.arme = new ArmePhysique("Arc en bois", 10);
                 break;
             default:
-                this.arme = new Poing();
+                this.arme = new ArmePhysique("Poings", 0);
                 break;
         }
     }

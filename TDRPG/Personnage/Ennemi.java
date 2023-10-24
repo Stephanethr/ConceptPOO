@@ -1,4 +1,4 @@
-package TDRPG.Personnage;
+package TDRPG.personnage;
 
 public class Ennemi extends Personnage {
     public Ennemi(String nom) {

@@ -1,4 +1,4 @@
-package TDRPG.Arme;
+package TDRPG.arme;
 
 public class Arme {
     protected String nom;

@@ -1,4 +1,4 @@
-package TDRPG.Personnage;
+package TDRPG.personnage;
 
 public class Pnj extends Personnage {
     public Pnj(String nom) {

@@ -1,7 +1,7 @@
 package TDRPG;
 
-import TDRPG.Personnage.*;
-import TDRPG.Arme.*;
+import TDRPG.arme.*;
+import TDRPG.personnage.*;
 
 public class Game {
     public static void main(String[] args) {
@@ -17,6 +17,9 @@ public class Game {
         Ennemi ennemi = new Ennemi("Gobelin");
 
         Pnj pnj = new Pnj("Marchand");
+
+        Arme arme = new ArmePhysique("Epée", 10);
+        Arme arme2 = new ArmeMagique("Baton", 10);
 
         System.out.println(joueur + "\n");
         System.out.println(joueur2 + "\n");

@@ -1,4 +1,4 @@
-package TDRPG.Personnage;
+package TDRPG.personnage;
 
 public class Joueur extends Personnage {
     private int argent;

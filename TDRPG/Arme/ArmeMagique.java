@@ -1,4 +1,4 @@
-package TDRPG.Arme;
+package TDRPG.arme;
 
 public class ArmeMagique extends Arme {
     public ArmeMagique(String nom, int degats) {
