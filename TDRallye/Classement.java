@@ -35,7 +35,7 @@ public class Classement {
             Voiture voiture = voitures.get(i);
             for (int j = 0; j < nombreCourses; j++) {
                 Course course = courses.get(j);
-                tempsCourses[i][j] = ;
+                //tempsCourses[i][j] = ;
             }
         }
 
